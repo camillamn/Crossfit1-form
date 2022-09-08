@@ -16,28 +16,28 @@
 				<form action="./payment.html" method="post" class="form"></form>
 				<fieldset>
 					<legend>Kontaktopplysninger</legend>
-						<label for="firstname">Navn</label>
+						<label for="firstname">Navn*</label>
 							<input required
 								type="text"								
 								id="firstname"
 								name="firstname"
 								autocomplete="off"
 								>
-						<label for="lastname">Etternavn</label>
+						<label for="lastname">Etternavn*</label>
 							<input required
 								type="text"
 								id="lastname"
 								name="lastname"
 								autocomplete="off"
 								>
-						<label for="phonenumber">Telefonnummer</label>
+						<label for="phonenumber">Telefonnummer*</label>
 							<input required
 								type="tel"
 								id="phonenumber"
 								name="phonenumber"
 								autocomplete="off"
 								>
-						<label for="email">E-postadresse</label>
+						<label for="email">E-postadresse*</label>
 							<input required 
 								type="email"
 								id="emailadress"
@@ -47,19 +47,45 @@
 				</fieldset>
 				<fieldset>
 					<legend>Påmeldingsdetaljer</legend>
-						<label for="select">Konkurranseklasse</label>
-							<select>
+						<label for="select">Konkurranseklasse*</label>
+							<select required>
 								<option selected disabled>Velg konkurranseklasse</option>
 								<option>Kvinne</option>
 								<option>Mann</option>
 								<option>Ungdom 12-18 år</option>
 								<option>Barn 9-11 år</option>
 							</select>
-                  <label for="select">T-skjorte</label>
-                     <select>
-                        
+                  <label for="select">T-skjorte*</label>
+                     <select required>
+                        <option selected disabled>Velg størrelse</option>
+                        <option>9-12 år</option>
+                        <option>12-15 år</option>
+                        <option>Extra small</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Extra large</option>
                      </select>
+                     <label for="textarea">Tilleggsopplysninger</label>
+                     <textarea name="Tilleggsinformasjon" id="Tilleggsinformasjon" cols="30" rows="10"></textarea>
 				</fieldset>
+            <fieldset>
+               <legend>Bekreftelse</legend>
+                  <input 
+                     type="checkbox"
+                     name="accept"
+                     value="Jeg bekrefter å ha lest og godtatt vilkårene">
+                     Jeg bekrefter å ha lest og godtatt vilkårene.
+            </fieldset>
+            <fieldset>
+               <input 
+                  type="submit"
+                  value="Til betaling"
+                  >
+               <input 
+                  type="reset"
+                  value="Tilbakestill">
+            </fieldset>
 		</section>
 	</body>
 
