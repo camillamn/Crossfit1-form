@@ -6,17 +6,21 @@
 		<link rel="stylesheet" href="./CSS/variables.css">
 		<link rel="stylesheet" href="./CSS/reset.css">
 		<link rel="stylesheet" href="./CSS/style.css">
+      <link rel="stylesheet" href="./CSS/style-classes.css">
 	</head>
 	<body>
-		<section>
-			<article class="article-1">Logo</article>
-			<article class="article-2">Konkuransetittel</article>
-			<article class="article-3"></article>
-			<article class="article-4"><h2>Påmelding til konkurranse</h2></article>
-				<form action="./payment.html" method="post" class="form"></form>
+      <header>
+         <article class="header-logo"></article><img src="./Assets/Images/kettlebell logo.png" alt="Logo, bilde av kettlebell">
+         <!-- Image borrowed from https://www.flaticon.com/kettlebell-->
+         <article class="header-text">Winter Throwdown 2022</article>
+      </header>
+      <h2>Påmelding til Winter Throwdown 2022</h2>
+      <section id="information">
+			<article class="article-1">
+				<form action="./payment.html" method="post" class="form">
 				<fieldset>
 					<legend>Kontaktopplysninger</legend>
-						<label for="firstname">Navn*</label>
+						<label for="firstname">For- og mellomnavn*</label>
 							<input required
 								type="text"								
 								id="firstname"
@@ -71,17 +75,18 @@
                         <option>Extra large</option>
                      </select>
                      <label for="textarea">Tilleggsopplysninger</label>
-                     <textarea name="Tilleggsinformasjon" id="Tilleggsinformasjon" cols="30" rows="10"></textarea>
+                     <textarea name="Tilleggsinformasjon" id="Tilleggsinformasjon" cols="30" rows="6"></textarea>
 				</fieldset>
-            <fieldset>
+            <fieldset class="confirmation">
                <legend>Bekreftelse</legend>
                   <input 
-                     type="checkbox"
-                     name="accept"
-                     value="Jeg bekrefter å ha lest og godtatt vilkårene">
+                     type="checkbox" 
+                     name="accept" 
+                     value="Jeg bekrefter å ha lest og godtatt vilkårene"
+                     >
                      Jeg bekrefter å ha lest og godtatt vilkårene.
             </fieldset>
-            <fieldset>
+            <fieldset class="submit">
                <input 
                   type="submit"
                   value="Til betaling"
@@ -90,8 +95,10 @@
                   type="reset"
                   value="Tilbakestill">
             </fieldset>
-         <article class="article-5">Copyright ©</article>
+            </form>
+         </article>
 		</section>
+      <footer>© 2022 Crossfit1</footer>
 	</body>
 
 </html>

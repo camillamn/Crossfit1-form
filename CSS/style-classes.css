@@ -1,0 +1,16 @@
+.header-logo {
+   margin-left: 5px;
+}
+
+.header-text {
+   margin: 40px 5px 20px 5px;
+   font-size: 50px;
+}
+
+.article-confirmation {
+   margin-top: 100px;
+}
+
+.confirmation, .submit {
+   display: flex;
+}

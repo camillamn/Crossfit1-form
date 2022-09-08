@@ -1,0 +1,59 @@
+* {
+   margin: 5px;
+}
+
+body {
+   background-color: var(--background);
+   color: var(--textcolor);
+   font-family: var(--font-family);
+   width: 100%;
+   max-width: 1200px;
+   margin: 20px auto;
+   justify-content: center;
+}
+
+header {
+   font-family: fantasy;
+   background-color: black;
+   color: whitesmoke;
+   display: flex;
+   justify-content: center;
+}
+
+img {
+   width: 150px;
+   align-items: center;
+   max-height: 200px;
+}
+
+h2 {
+   text-align: center;
+   margin-top: 15px;
+}
+
+section {
+   display: flex;
+   min-height: 300px;
+   justify-content: center;
+}
+
+fieldset {
+   background-color: var(--forms-background);
+   width: 400px;
+   font-size: 20px;
+}
+
+input, select, textarea {
+   display: block;
+   font-size: 18px;
+}
+
+article {
+   display: flex;
+   font-size: 20px;
+   padding: 10px;
+}
+
+footer {
+   text-align: center;
+}
