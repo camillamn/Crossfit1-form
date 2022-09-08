@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="no">
+   <head>
+		<meta charset="UTF-8">
+		<title>Crossfit1</title>
+		<link rel="stylesheet" href="./CSS/variables.css">
+		<link rel="stylesheet" href="./CSS/reset.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+	</head>
+	<body>
+		<section>
+			<article class="article-1">Logo</article>
+			<article class="article-2">Konkuransetittel</article>
+			<article class="article-3"></article>
+			<article class="article-4"><h2>Påmelding til konkurranse</h2></article>
+				<form action="./payment.html" method="post" class="form"></form>
+				<fieldset>
+					<legend>Kontaktopplysninger</legend>
+						<label for="firstname">Navn</label>
+							<input required
+								type="text"								
+								id="firstname"
+								name="firstname"
+								autocomplete="off"
+								>
+						<label for="lastname">Etternavn</label>
+							<input required
+								type="text"
+								id="lastname"
+								name="lastname"
+								autocomplete="off"
+								>
+						<label for="phonenumber">Telefonnummer</label>
+							<input required
+								type="tel"
+								id="phonenumber"
+								name="phonenumber"
+								autocomplete="off"
+								>
+						<label for="email">E-postadresse</label>
+							<input required 
+								type="email"
+								id="emailadress"
+								name="emailadress"
+								autocomplete="off"
+								>
+				</fieldset>
+				<fieldset>
+					<legend>Påmeldingsdetaljer</legend>
+						<label for="select">konkurranseklasse</label>
+							<select>
+								<option selected disabled>Velg konkurranseklasse</option>
+								<option>Kvinne</option>
+								<option>Mann</option>
+								<option>Ungdom 12-18 år</option>
+								<option>Barn 9-11 år</option>
+							</select>
+				</fieldset>
+		</section>
+	</body>
+
+</html>
