@@ -8,9 +8,15 @@
 }
 
 .article-confirmation {
-   margin-top: 100px;
+   margin-top: 50px;
+   max-height: 150px;
 }
 
 .confirmation, .submit {
    display: flex;
+}
+
+.survey {
+   height: 200px;
+   display: block;
 }
