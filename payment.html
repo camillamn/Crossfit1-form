@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="no">
+   <head>
+      <meta charset="UTF-8">
+		<title>Crossfit1</title>
+		<link rel="stylesheet" href="./CSS/variables.css">
+		<link rel="stylesheet" href="./CSS/reset.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+   </head>
+
+	<body>
+		<section>
+			<article class="article-1">Logo</article>
+			<article class="article-2">Konkuransetittel</article>
+			<article class="article-3"></article>
+			<article class="article-4"><h2>Betaling</h2></article>
+				<form action="./result.html" method="post" class="form">
+				<fieldset>
+					<legend>Kredittkortopplysninger</legend>
+					<label for="select">Korttype</label>
+						<select>
+							<option selected disabled>Velg korttype</option>
+							<option>Visa</option>
+							<option>Mastercard</option>
+							<option>American Express</option>
+						</select>
+
+						<label for="Kortnummer">Kortnummer</label>
+						<input 
+							type="tel"
+							name="Kortnummer" 
+							autocomplete="off"
+							value=""
+							id="kortnummer"
+							minlength="15"
+							maxlength="16"
+						>
+						<label for="Gyldig til">Gyldig til</label>
+						<input
+							type="month"
+							name="Gyldig til"
+							autocomplete="off"
+							value=""
+							id="Gyldig til"
+						>
+						<label for="Kortholders navn">Kortholders navn</label>
+						<input
+							type="text"
+							name="Kortholders navn"
+							autocomplete="off"
+							value=""
+							id="Kortholders navn"
+							>
+						<label for="Sikkerhetskode">Sikkerhetskode</label>
+						<input 
+							type="tel"
+							name="Sikkerhetskode"
+							autocomplete="off"
+							value=""
+							id="sikkerhetskode"
+							maxlength="4"
+							>
+						<input
+							type="submit" value="Betaling">
+					</fieldset>
+				</form>
+				<a href="./index.html">Avbryt</a>					
+				</fieldset>
+			<article class="article-5">Copyright ©</article>
+		</section>
+	</body>
+</html>
