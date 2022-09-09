@@ -28,7 +28,8 @@ img {
 
 h2 {
    text-align: center;
-   margin-top: 30px;
+   margin-top: 25px;
+   font-size: 27px;
 }
 
 section {
@@ -39,13 +40,16 @@ section {
 
 fieldset {
    background-color: var(--forms-background);
-   width: 400px;
+   width: 450px;
    font-size: 20px;
+   border-radius: 10px;
 }
 
-input, select, textarea {
+input, select, textarea, label {
    display: block;
    font-size: 18px;
+   border-radius: 5px;
+   margin: 5px 10px 5px 20px;
 }
 
 article {

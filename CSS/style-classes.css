@@ -7,16 +7,12 @@
    font-size: 50px;
 }
 
-.article-confirmation {
+.article-succeed {
    margin-top: 50px;
    max-height: 150px;
 }
 
-.confirmation, .submit {
+.confirmation, .submit, .survey {
    display: flex;
-}
-
-.survey {
-   height: 200px;
-   display: block;
+   margin-bottom: 10px;
 }
