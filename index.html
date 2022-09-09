@@ -77,17 +77,18 @@
                      <label for="textarea">Tilleggsopplysninger</label>
                      <textarea name="Tilleggsinformasjon" id="Tilleggsinformasjon" cols="30" rows="6"></textarea>
 				</fieldset>
+            <!-- source for the "choose only one radiobutton" (https://stackoverflow.com/questions/48914363/just-allow-to-select-one-radio-button)-->
             <fieldset class="survey">
-               <legend>Gleder du deg å delta?</legend>
-                  <label for="ja">Ja</label>
+               <legend>Ønsker du å være med på <strong>The afterparty</strong>?</legend>
+                  <label for="yes">Ja selvfølgelig!</label>
                      <input 
                         type="radio" 
-                        name="ja"
+                        name="radiobutton"
                         >
-                  <label for="nei">Nei</label>
+                  <label for="nei">Nei, dessverre. Det passer ikke denne gangen.</label>
                      <input 
                         type="radio" 
-                        name="nei"
+                        name="radiobutton"
                         >
             </fieldset>
             <fieldset class="confirmation">

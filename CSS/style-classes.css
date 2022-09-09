@@ -12,7 +12,7 @@
    max-height: 150px;
 }
 
-.confirmation, .submit, .survey {
+.confirmation, .submit {
    display: flex;
    margin-bottom: 10px;
 }
